@@ -604,6 +604,10 @@ input#search {
   grid-column: 13;
   grid-row: 15;
 }
+.element[data-position="128"] {
+  grid-column: 14;
+  grid-row: 15;
+}
 
 /* Alkali Metals */
 .alkali-metals {

@@ -1219,20 +1219,24 @@ const elements = [
     position: 123,
   },
   {
-    name: "Halogens",
+    name: "Nometals",
     position: 124,
   },
   {
-    name: "Noble Gases",
+    name: "Halogens",
     position: 125,
   },
   {
-    name: "Lanthanides",
+    name: "Noble Gases",
     position: 126,
   },
   {
-    name: "Actinides",
+    name: "Lanthanides",
     position: 127,
+  },
+  {
+    name: "Actinides",
+    position: 128,
   },
 ];
 
@@ -1248,13 +1252,13 @@ const elementGroups = {
     13, 31, 49, 50, 81, 82, 83, 113, 114, 115, 116, 122,
   ],
   metalloids: [5, 14, 32, 33, 51, 52, 84, 123],
-  nonmetals: [1, 6, 7, 8, 15, 16, 34],
-  halogens: [9, 17, 35, 53, 85, 117, 124],
-  "noble-gases": [2, 10, 18, 36, 54, 86, 118, 125],
+  nonmetals: [1, 6, 7, 8, 15, 16, 34, 124],
+  halogens: [9, 17, 35, 53, 85, 117, 125],
+  "noble-gases": [2, 10, 18, 36, 54, 86, 118, 126],
   lanthanides: [
-    57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 126,
+    57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 127,
   ],
   actinides: [
-    89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 127,
+    89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 128,
   ],
 };
