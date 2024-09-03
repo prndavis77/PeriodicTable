@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Periodic Table</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Search bar for filtering elements -->
+    <div>
+      <div class="side-by-side">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search for an element..."
+          onkeyup="searchElement()"
+        />
+        <button class="start" onclick="startMemoryGame()">
+          Start Memory Game
+        </button>
+      </div>
+      <div class="memory-game-prompt">
+        <label for="element-category"
+          >Please select a category to start the game</label
+        >
+        <select id="element-category">
+          <option disabled selected>Select an element category</option>
+          <option value="1 - 20">Elements 1 - 20</option>
+          <option value="alkali-metals">Alkali Metals</option>
+          <option value="alkali-earth-metals">Alkali Earth Metals</option>
+          <option value="transition-metals">Transition Metals</option>
+          <option value="post-transition-metals">Post-transition Metals</option>
+          <option value="metalloids">Metalloids</option>
+          <option value="nonmetals">Nonmetals</option>
+          <option value="halogens">Halogens</option>
+          <option value="noble-gases">Noble Gases</option>
+          <option value="lanthanides">Lanthanides</option>
+          <option value="actinides">Actinides</option>
+        </select>
+        <p class="message"></p>
+      </div>
+    </div>
+
+    <!-- Container for the periodic table elements -->
+    <div class="periodic-table">
+      <!-- Insert elements here -->
+      <!-- Container for displaying element information -->
+      <div class="element-info">
+        <!-- Display element information here -->
+      </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
